@@ -103,12 +103,12 @@ class RadialMenu: UIView, RadialSubMenuDelegate {
     
     // MARK: Init
 
-    init(coder decoder: NSCoder!) {
+    required init(coder decoder: NSCoder) {
         subMenus = []
         super.init(coder: decoder)
     }
     
-    init(frame: CGRect) {
+    override init(frame: CGRect) {
         subMenus = []
         super.init(frame: frame)
     }
@@ -312,7 +312,7 @@ class RadialMenu: UIView, RadialSubMenuDelegate {
         var anim = backgroundView.pop_animationForKey("scale") as? POPSpringAnimation
         let toValue = NSValue(CGPoint: CGPoint(x: size, y: size))
         
-        if (anim) {
+        if ((anim) != nil) {
             anim!.toValue = toValue
         } else {
             anim = POPSpringAnimation(propertyNamed: kPOPViewScaleXY)
@@ -345,7 +345,7 @@ class RadialMenu: UIView, RadialSubMenuDelegate {
         var anim = subMenu.pop_animationForKey("expand") as? POPSpringAnimation
         let toValue = NSValue(CGPoint: pos)
         
-        if (anim) {
+        if ((anim) != nil) {
             anim!.toValue = toValue
         } else {
             anim = POPSpringAnimation(propertyNamed: kPOPViewCenter)

@@ -7,65 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5120C3201A12BDCF00638ED1 /* libPods-pop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5120C31F1A12BDCF00638ED1 /* libPods-pop.a */; };
+		5120C3261A12BEA600638ED1 /* libPods-POP+MCAnimate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5120C3221A12BEA600638ED1 /* libPods-POP+MCAnimate.a */; };
+		5120C3271A12BEA600638ED1 /* libPods-PureLayout.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5120C3231A12BEA600638ED1 /* libPods-PureLayout.a */; };
+		5120C3281A12BEA600638ED1 /* libPods-Tweaks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5120C3241A12BEA600638ED1 /* libPods-Tweaks.a */; };
+		5120C3291A12BEA600638ED1 /* libPods-UIColor-CrossFade.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5120C3251A12BEA600638ED1 /* libPods-UIColor-CrossFade.a */; };
 		A203028A194282F1000FF9D1 /* RadialSubMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2030289194282F1000FF9D1 /* RadialSubMenu.swift */; };
 		A205B8B219415FDE00C0E5A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A205B8B119415FDE00C0E5A3 /* AppDelegate.swift */; };
 		A205B8B419415FDE00C0E5A3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A205B8B319415FDE00C0E5A3 /* FirstViewController.swift */; };
 		A205B8B619415FDE00C0E5A3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A205B8B519415FDE00C0E5A3 /* SecondViewController.swift */; };
 		A205B8B919415FDE00C0E5A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A205B8B719415FDE00C0E5A3 /* Main.storyboard */; };
 		A205B8BB19415FDE00C0E5A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A205B8BA19415FDE00C0E5A3 /* Images.xcassets */; };
-		A205B8C719415FDF00C0E5A3 /* RadialMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A205B8C619415FDF00C0E5A3 /* RadialMenuTests.swift */; };
-		A21C293A1943707600514A22 /* RadialSubMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2030289194282F1000FF9D1 /* RadialSubMenu.swift */; };
-		A21C293B1943707900514A22 /* RadialMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A244F3D01941625B0081DCB6 /* RadialMenu.swift */; };
 		A23919811943607F00822BD9 /* CircleHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23919801943607F00822BD9 /* CircleHelpers.swift */; };
-		A24289B719436310008DA89C /* CircleHelpersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24289B619436310008DA89C /* CircleHelpersTests.swift */; };
 		A244F3D11941625B0081DCB6 /* RadialMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A244F3D01941625B0081DCB6 /* RadialMenu.swift */; };
 		A26632FA194E990000F28D06 /* UIColor+helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26632F9194E990000F28D06 /* UIColor+helpers.swift */; };
-		A2A23B461946437600DDAE4F /* RadialSubMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A23B451946437600DDAE4F /* RadialSubMenuTests.swift */; };
-		A2C35FB119436C34005B3D24 /* CircleHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23919801943607F00822BD9 /* CircleHelpers.swift */; };
 		BFD7D541F1DB49F8840D1355 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D3AA863A764DF0A5EE5918 /* libPods.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		A205B8C119415FDF00C0E5A3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A205B8A419415FDE00C0E5A3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A205B8AB19415FDE00C0E5A3;
-			remoteInfo = RadialMenu;
-		};
-		A20744FF194ABBE000188433 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A205B8A419415FDE00C0E5A3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A205B8AB19415FDE00C0E5A3;
-			remoteInfo = RadialMenu;
-		};
-		A24289B81943632F008DA89C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A205B8A419415FDE00C0E5A3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A205B8AB19415FDE00C0E5A3;
-			remoteInfo = RadialMenu;
-		};
-		A2A950DF194B781C00B9CC8C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A205B8A419415FDE00C0E5A3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A205B8AB19415FDE00C0E5A3;
-			remoteInfo = RadialMenu;
-		};
-		A2A950E1194B781C00B9CC8C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A205B8A419415FDE00C0E5A3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A205B8AB19415FDE00C0E5A3;
-			remoteInfo = RadialMenu;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		696BA227E8D745F988E911E4 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		5120C31F1A12BDCF00638ED1 /* libPods-pop.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-pop.a"; path = "Pods/build/Debug-iphoneos/libPods-pop.a"; sourceTree = "<group>"; };
+		5120C3211A12BE1200638ED1 /* POP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = POP.h; path = Pods/pop/pop/POP.h; sourceTree = "<group>"; };
+		5120C3221A12BEA600638ED1 /* libPods-POP+MCAnimate.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-POP+MCAnimate.a"; path = "Pods/build/Debug-iphoneos/libPods-POP+MCAnimate.a"; sourceTree = "<group>"; };
+		5120C3231A12BEA600638ED1 /* libPods-PureLayout.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-PureLayout.a"; path = "Pods/build/Debug-iphoneos/libPods-PureLayout.a"; sourceTree = "<group>"; };
+		5120C3241A12BEA600638ED1 /* libPods-Tweaks.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Tweaks.a"; path = "Pods/build/Debug-iphoneos/libPods-Tweaks.a"; sourceTree = "<group>"; };
+		5120C3251A12BEA600638ED1 /* libPods-UIColor-CrossFade.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-UIColor-CrossFade.a"; path = "Pods/build/Debug-iphoneos/libPods-UIColor-CrossFade.a"; sourceTree = "<group>"; };
+		51C8FF8B1A12C1450067DCC9 /* libPods-pop.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-pop.a"; path = "Pods/build/Debug-iphoneos/libPods-pop.a"; sourceTree = "<group>"; };
+		51C8FF8C1A12C1450067DCC9 /* libPods-POP+MCAnimate.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-POP+MCAnimate.a"; path = "Pods/build/Debug-iphoneos/libPods-POP+MCAnimate.a"; sourceTree = "<group>"; };
+		51C8FF8D1A12C1450067DCC9 /* libPods-PureLayout.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-PureLayout.a"; path = "Pods/build/Debug-iphoneos/libPods-PureLayout.a"; sourceTree = "<group>"; };
+		51C8FF8E1A12C1450067DCC9 /* libPods-Tweaks.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Tweaks.a"; path = "Pods/build/Debug-iphoneos/libPods-Tweaks.a"; sourceTree = "<group>"; };
+		51C8FF8F1A12C1450067DCC9 /* libPods-UIColor-CrossFade.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-UIColor-CrossFade.a"; path = "Pods/build/Debug-iphoneos/libPods-UIColor-CrossFade.a"; sourceTree = "<group>"; };
+		51C8FF901A12C1450067DCC9 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
 		94D3AA863A764DF0A5EE5918 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		966182335351C094CB6A9F29 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A2030289194282F1000FF9D1 /* RadialSubMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadialSubMenu.swift; sourceTree = "<group>"; };
 		A203028B1942939C000FF9D1 /* RadialMenuPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RadialMenuPlayground.playground; sourceTree = "<group>"; };
 		A205B8AC19415FDE00C0E5A3 /* RadialMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadialMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,16 +48,12 @@
 		A205B8B519415FDE00C0E5A3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		A205B8B819415FDE00C0E5A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A205B8BA19415FDE00C0E5A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A205B8C019415FDF00C0E5A3 /* RadialMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadialMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A205B8C519415FDF00C0E5A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A205B8C619415FDF00C0E5A3 /* RadialMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialMenuTests.swift; sourceTree = "<group>"; };
 		A23919801943607F00822BD9 /* CircleHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleHelpers.swift; sourceTree = "<group>"; };
-		A24289B619436310008DA89C /* CircleHelpersTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleHelpersTests.swift; sourceTree = "<group>"; };
 		A244F3D01941625B0081DCB6 /* RadialMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadialMenu.swift; sourceTree = "<group>"; };
 		A26632F9194E990000F28D06 /* UIColor+helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+helpers.swift"; sourceTree = "<group>"; };
 		A2695FF6194B51F4004FB4FF /* RadialMenu-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RadialMenu-Bridging-Header.h"; sourceTree = "<group>"; };
 		A292FE83194B795600F437DA /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
-		A2A23B451946437600DDAE4F /* RadialSubMenuTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadialSubMenuTests.swift; sourceTree = "<group>"; };
+		FA40E6FD8C54AA9642012623 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,13 +62,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFD7D541F1DB49F8840D1355 /* libPods.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A205B8BD19415FDF00C0E5A3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				5120C3201A12BDCF00638ED1 /* libPods-pop.a in Frameworks */,
+				5120C3261A12BEA600638ED1 /* libPods-POP+MCAnimate.a in Frameworks */,
+				5120C3271A12BEA600638ED1 /* libPods-PureLayout.a in Frameworks */,
+				5120C3281A12BEA600638ED1 /* libPods-Tweaks.a in Frameworks */,
+				5120C3291A12BEA600638ED1 /* libPods-UIColor-CrossFade.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,21 +76,41 @@
 		6C35E8CE8878416EA78E2631 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				51C8FF8B1A12C1450067DCC9 /* libPods-pop.a */,
+				51C8FF8C1A12C1450067DCC9 /* libPods-POP+MCAnimate.a */,
+				51C8FF8D1A12C1450067DCC9 /* libPods-PureLayout.a */,
+				51C8FF8E1A12C1450067DCC9 /* libPods-Tweaks.a */,
+				51C8FF8F1A12C1450067DCC9 /* libPods-UIColor-CrossFade.a */,
+				51C8FF901A12C1450067DCC9 /* libPods.a */,
+				5120C3221A12BEA600638ED1 /* libPods-POP+MCAnimate.a */,
+				5120C3231A12BEA600638ED1 /* libPods-PureLayout.a */,
+				5120C3241A12BEA600638ED1 /* libPods-Tweaks.a */,
+				5120C3251A12BEA600638ED1 /* libPods-UIColor-CrossFade.a */,
+				5120C31F1A12BDCF00638ED1 /* libPods-pop.a */,
 				A292FE83194B795600F437DA /* libPods.a */,
 				94D3AA863A764DF0A5EE5918 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		89C15F0A168D39463EE35474 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				966182335351C094CB6A9F29 /* Pods.debug.xcconfig */,
+				FA40E6FD8C54AA9642012623 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A205B8A319415FDE00C0E5A3 = {
 			isa = PBXGroup;
 			children = (
+				5120C3211A12BE1200638ED1 /* POP.h */,
 				A2C35FB219436CDD005B3D24 /* RadialMenuExample */,
 				A205B8AE19415FDE00C0E5A3 /* RadialMenu */,
-				A205B8C319415FDF00C0E5A3 /* RadialMenuTests */,
 				A205B8AD19415FDE00C0E5A3 /* Products */,
-				696BA227E8D745F988E911E4 /* Pods.xcconfig */,
 				6C35E8CE8878416EA78E2631 /* Frameworks */,
+				89C15F0A168D39463EE35474 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,7 +118,6 @@
 			isa = PBXGroup;
 			children = (
 				A205B8AC19415FDE00C0E5A3 /* RadialMenu.app */,
-				A205B8C019415FDF00C0E5A3 /* RadialMenuTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,25 +136,6 @@
 			isa = PBXGroup;
 			children = (
 				A205B8B019415FDE00C0E5A3 /* Info.plist */,
-			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A205B8C319415FDF00C0E5A3 /* RadialMenuTests */ = {
-			isa = PBXGroup;
-			children = (
-				A205B8C619415FDF00C0E5A3 /* RadialMenuTests.swift */,
-				A2A23B451946437600DDAE4F /* RadialSubMenuTests.swift */,
-				A24289B619436310008DA89C /* CircleHelpersTests.swift */,
-				A205B8C419415FDF00C0E5A3 /* Supporting Files */,
-			);
-			path = RadialMenuTests;
-			sourceTree = "<group>";
-		};
-		A205B8C419415FDF00C0E5A3 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A205B8C519415FDF00C0E5A3 /* Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -227,28 +194,6 @@
 			productReference = A205B8AC19415FDE00C0E5A3 /* RadialMenu.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A205B8BF19415FDF00C0E5A3 /* RadialMenuTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A205B8CD19415FDF00C0E5A3 /* Build configuration list for PBXNativeTarget "RadialMenuTests" */;
-			buildPhases = (
-				A205B8BC19415FDF00C0E5A3 /* Sources */,
-				A205B8BD19415FDF00C0E5A3 /* Frameworks */,
-				A205B8BE19415FDF00C0E5A3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A205B8C219415FDF00C0E5A3 /* PBXTargetDependency */,
-				A24289B91943632F008DA89C /* PBXTargetDependency */,
-				A2074500194ABBE000188433 /* PBXTargetDependency */,
-				A2A950E0194B781C00B9CC8C /* PBXTargetDependency */,
-				A2A950E2194B781C00B9CC8C /* PBXTargetDependency */,
-			);
-			name = RadialMenuTests;
-			productName = RadialMenuTests;
-			productReference = A205B8C019415FDF00C0E5A3 /* RadialMenuTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -260,10 +205,6 @@
 				TargetAttributes = {
 					A205B8AB19415FDE00C0E5A3 = {
 						CreatedOnToolsVersion = 6.0;
-					};
-					A205B8BF19415FDF00C0E5A3 = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = A205B8AB19415FDE00C0E5A3;
 					};
 				};
 			};
@@ -281,7 +222,6 @@
 			projectRoot = "";
 			targets = (
 				A205B8AB19415FDE00C0E5A3 /* RadialMenu */,
-				A205B8BF19415FDF00C0E5A3 /* RadialMenuTests */,
 			);
 		};
 /* End PBXProject section */
@@ -293,13 +233,6 @@
 			files = (
 				A205B8B919415FDE00C0E5A3 /* Main.storyboard in Resources */,
 				A205B8BB19415FDE00C0E5A3 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A205B8BE19415FDF00C0E5A3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +251,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7FC4E313ABC6435B9FFC2A1F /* Check Pods Manifest.lock */ = {
@@ -353,48 +286,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A205B8BC19415FDF00C0E5A3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A2A23B461946437600DDAE4F /* RadialSubMenuTests.swift in Sources */,
-				A205B8C719415FDF00C0E5A3 /* RadialMenuTests.swift in Sources */,
-				A24289B719436310008DA89C /* CircleHelpersTests.swift in Sources */,
-				A2C35FB119436C34005B3D24 /* CircleHelpers.swift in Sources */,
-				A21C293B1943707900514A22 /* RadialMenu.swift in Sources */,
-				A21C293A1943707600514A22 /* RadialSubMenu.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A205B8C219415FDF00C0E5A3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A205B8AB19415FDE00C0E5A3 /* RadialMenu */;
-			targetProxy = A205B8C119415FDF00C0E5A3 /* PBXContainerItemProxy */;
-		};
-		A2074500194ABBE000188433 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A205B8AB19415FDE00C0E5A3 /* RadialMenu */;
-			targetProxy = A20744FF194ABBE000188433 /* PBXContainerItemProxy */;
-		};
-		A24289B91943632F008DA89C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A205B8AB19415FDE00C0E5A3 /* RadialMenu */;
-			targetProxy = A24289B81943632F008DA89C /* PBXContainerItemProxy */;
-		};
-		A2A950E0194B781C00B9CC8C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A205B8AB19415FDE00C0E5A3 /* RadialMenu */;
-			targetProxy = A2A950DF194B781C00B9CC8C /* PBXContainerItemProxy */;
-		};
-		A2A950E2194B781C00B9CC8C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A205B8AB19415FDE00C0E5A3 /* RadialMenu */;
-			targetProxy = A2A950E1194B781C00B9CC8C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A205B8B719415FDE00C0E5A3 /* Main.storyboard */ = {
@@ -491,65 +383,33 @@
 		};
 		A205B8CB19415FDF00C0E5A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 696BA227E8D745F988E911E4 /* Pods.xcconfig */;
+			baseConfigurationReference = 966182335351C094CB6A9F29 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "RadialMenuExample/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		A205B8CC19415FDF00C0E5A3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 696BA227E8D745F988E911E4 /* Pods.xcconfig */;
+			baseConfigurationReference = FA40E6FD8C54AA9642012623 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "RadialMenuExample/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		A205B8CE19415FDF00C0E5A3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 696BA227E8D745F988E911E4 /* Pods.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RadialMenu.app/RadialMenu";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
+				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
 				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "RadialMenuTests/Supporting Files/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				METAL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Debug;
-		};
-		A205B8CF19415FDF00C0E5A3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 696BA227E8D745F988E911E4 /* Pods.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RadialMenu.app/RadialMenu";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "RadialMenuTests/Supporting Files/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
 		};
@@ -570,15 +430,6 @@
 			buildConfigurations = (
 				A205B8CB19415FDF00C0E5A3 /* Debug */,
 				A205B8CC19415FDF00C0E5A3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A205B8CD19415FDF00C0E5A3 /* Build configuration list for PBXNativeTarget "RadialMenuTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A205B8CE19415FDF00C0E5A3 /* Debug */,
-				A205B8CF19415FDF00C0E5A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

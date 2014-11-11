@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Brad Jasper. All rights reserved.
 //
 
-#import <POP.h>
+#import "pop.h"
 #import <Tweaks/FBTweakInline.h>
 #import <Tweaks/FBTweakShakeWindow.h>
 #import "UIColor+CrossFade.h"

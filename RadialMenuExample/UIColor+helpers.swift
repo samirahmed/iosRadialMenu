@@ -18,7 +18,7 @@ extension UIColor {
         
         if rgba.hasPrefix("#") {
             let hex = rgba.substringFromIndex(advance(rgba.startIndex, 1))
-            let scanner = NSScanner.scannerWithString(hex)
+            let scanner = NSScanner(string: hex)
             var hexValue: CUnsignedLongLong = 0
             if scanner.scanHexLongLong(&hexValue) {
                 let numElements = countElements(hex)

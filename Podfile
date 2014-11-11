@@ -1,4 +1,4 @@
-pod 'pop', :git => 'https://github.com/facebook/pop.git'
+pod 'pop', '~> 1.0'
 pod 'Tweaks'
 pod 'POP+MCAnimate'
 pod 'UIColor-CrossFade'
