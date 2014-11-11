@@ -36,7 +36,8 @@ class FirstViewController: UIViewController {
         super.viewDidLoad()
         
         let longPress = UILongPressGestureRecognizer(target: self, action: "pressedButton:")
-        
+        longPress.delaysTouchesBegan = true;
+        longPress.minimumPressDuration = 0.1;
         // Setup radial menu
         var subMenus: [RadialSubMenu] = []
         for i in 0..<num {
@@ -45,12 +46,16 @@ class FirstViewController: UIViewController {
         
         radialMenu = RadialMenu(menus: subMenus, radius: menuRadius)
         radialMenu.center = view.center
-        radialMenu.openDelayStep = 0.05
+        radialMenu.alpha = 0.75
+        radialMenu.openDelayStep = 0.00
         radialMenu.closeDelayStep = 0.00
         radialMenu.minAngle = 180
         radialMenu.maxAngle = 360
-        radialMenu.activatedDelay = 1.0
-        radialMenu.backgroundView.alpha = 0.0
+        radialMenu.activatedDelay = 0.0
+        radialMenu.backgroundView.alpha = 1.0
+        radialMenu.backgroundView.backgroundColor = UIColor.whiteColor()
+        radialMenu.backgroundView.layer.borderColor = UIColor.grayColor().CGColor
+        radialMenu.backgroundView.layer.borderWidth = 2
         radialMenu.onClose = {
             for subMenu in self.radialMenu.subMenus {
                 self.resetSubMenu(subMenu)
@@ -128,6 +133,7 @@ class FirstViewController: UIViewController {
         subMenu.layer.cornerRadius = subMenuRadius
         subMenu.layer.borderColor = UIColor.whiteColor().colorWithAlphaComponent(0.5).CGColor
         subMenu.layer.borderWidth = 1
+        subMenu.openSpringSpeed = 30
         subMenu.tag = i
         resetSubMenu(subMenu)
         return subMenu

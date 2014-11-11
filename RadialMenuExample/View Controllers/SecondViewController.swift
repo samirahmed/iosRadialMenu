@@ -12,7 +12,7 @@ import QuartzCore
 class SecondViewController: UIViewController {
     var didSetupConstraints = false
     
-    let highlightColor = UIColor(red:0.0, green:122.0/255.0, blue:1.0, alpha:1.0)
+    let highlightColor = UIColor(red:0.0, green:0.0/255.0, blue:1.0, alpha:1.0)
     let tapView:UIView
     let microphoneButton:UIView
     var radialMenu:RadialMenu
